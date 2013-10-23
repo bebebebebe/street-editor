@@ -1,0 +1,10 @@
+#street {
+  border: 3px solid red;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+}
+
+#options {
+  float: right;
+}
