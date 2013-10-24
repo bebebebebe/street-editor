@@ -1,3 +1,7 @@
+body {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
 #street {
   border: 3px solid red;
   display: inline-block;
@@ -6,5 +10,5 @@
 }
 
 #options {
-  float: right;
+  display: inline-block;
 }

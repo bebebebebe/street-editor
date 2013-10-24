@@ -8,7 +8,11 @@ function render(loc, dir, zoom, angle) {
 
   var params = "size=" + size + "&location=" + loc + "&heading=" + dir + "&fov=" + zoom + "&pitch=" + angle + "&sensor=false";
 
-  $('#street').html('<img src="' + base + params + '">');
+  $('#street').html('<img id="image1" src="' + base + params + '">');
   console.log(loc);
 }
 
+function picUrl(loc, dir, zoom, angle) {
+  var params = "size=" + size + "&location=" + loc + "&heading=" + dir + "&fov=" + zoom + "&pitch=" + angle + "&sensor=false";
+  return base + params;
+}
