@@ -9,6 +9,8 @@ body {
   height: 500px;
 }
 
-#options {
+.eg {
+  padding-left: 20px;
+  margin-left: 20px;
 
 }
