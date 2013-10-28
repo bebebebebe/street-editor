@@ -1,16 +1,38 @@
 body {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  background: black;
+  color: white;
+  padding-bottom: 20px;
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
 }
 
 #street {
-  border: 3px solid red;
+
+  background: gray;
   display: inline-block;
   width: 500px;
   height: 500px;
 }
 
 .eg {
-  padding-left: 20px;
-  margin-left: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#examples {
+  background: black;
+}
+
+.instructions {
+  font-style: italic;
+  font-size: small;
+}
+
+#options {
+  padding: 10px;
 
 }
