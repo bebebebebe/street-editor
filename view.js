@@ -9,9 +9,8 @@ $(document).ready(function(){
   })
 
   $('#editor').on('click', function(){
-    console.log('ready!');
     var picturl = picUrl(loc, dir, zoom, angle);
-    return launchEditor('image1', picturl);
+    return launchEditor('image1', picturl, image1.jpg);
   })
 
 })
